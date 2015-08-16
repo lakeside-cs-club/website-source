@@ -1,0 +1,48 @@
+html,body{
+    height: 100%;
+}
+
+body {
+	background-color: #e1e8e9;
+}
+
+#nav_header_list {
+	overflow-y: hidden
+}
+
+#jumbotron_container {
+	margin-top: 5em;
+}
+
+#jumbotron{
+	background-color: white;
+}
+
+#jumbotron h1 {
+	font-family: Century Gothic;
+	margin-top: -0.2em;
+}
+
+#social_media li {
+	margin-left: -0.8em;
+	margin-right: -0.8em;
+}
+
+#social_media img:hover {
+	opacity: 0.8;
+}
+
+#footer {
+	margin-top: 2em;
+	margin-bottom: -1em;
+}
+
+@media (max-width: 991px) {
+	#sliderFrame{
+		display: none;
+	}
+	
+	#jumbotron hr{
+		display: none;
+	}
+}
